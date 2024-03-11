@@ -1,5 +1,5 @@
 
-```perl
+
 use strict;
 use warnings;
 use Telegram::Bot::Authenticate;
@@ -44,5 +44,4 @@ if ($is_valid_group) {
 } else {
     print "El grupo $group_id no es válido.\n";
 }
-```
 
